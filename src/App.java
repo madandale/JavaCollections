@@ -16,7 +16,7 @@ public class App {
    
         
 
-List <String> employeeName = new ArrayList<String>(); 
+PriorityQueue<String> employeeName = new PriorityQueue<String>(); 
 
         employeeName.add("Santosh");
         employeeName.add("Bhushan");
@@ -24,7 +24,7 @@ List <String> employeeName = new ArrayList<String>();
         employeeName.add("Madan");
         employeeName.add("Bhushan");
 
-
+//
         for (String name :employeeName) {
 
             System.out.println("name : "+name);
